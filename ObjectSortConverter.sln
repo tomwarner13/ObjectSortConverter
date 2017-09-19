@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.0.0
-MinimumVisualStudioVersion = 10.0.0.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectSortConverter", "ObjectSortConverter/ObjectSortConverter.csproj", "{94D5FB00-CD5B-48A5-BD2B-E0AE1A9E49AE}"
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectSortConverter", "ObjectSortConverter\ObjectSortConverter.csproj", "{94D5FB00-CD5B-48A5-BD2B-E0AE1A9E49AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{0634A6A7-992B-4BE6-98A0-E7CAC2DA0A4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{94D5FB00-CD5B-48A5-BD2B-E0AE1A9E49AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94D5FB00-CD5B-48A5-BD2B-E0AE1A9E49AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94D5FB00-CD5B-48A5-BD2B-E0AE1A9E49AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0634A6A7-992B-4BE6-98A0-E7CAC2DA0A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0634A6A7-992B-4BE6-98A0-E7CAC2DA0A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0634A6A7-992B-4BE6-98A0-E7CAC2DA0A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0634A6A7-992B-4BE6-98A0-E7CAC2DA0A4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
