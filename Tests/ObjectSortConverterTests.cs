@@ -17,7 +17,7 @@ namespace Tests
 
             var result = Convert(str);
 
-            Assert.AreEqual(result, "\"hello\"");
+            Assert.AreEqual("\"hello\"", result);
         }
 
         [TestMethod]
@@ -27,7 +27,7 @@ namespace Tests
 
             var result = Convert(l);
 
-            Assert.AreEqual(result, "[1,2,3,4,5]");
+            Assert.AreEqual("[1,2,3,4,5]", result);
         }
 
         [TestMethod]
@@ -44,8 +44,8 @@ namespace Tests
 
             var result = Convert(d);
 
-            Assert.AreEqual(result, 
-                "{\"1\":\"one\",\"2\":\"two\",\"3\":\"three\",\"4\":\"four\",\"5\":\"five\"}");
+            Assert.AreEqual(
+                "{\"1\":\"one\",\"2\":\"two\",\"3\":\"three\",\"4\":\"four\",\"5\":\"five\"}", result);
         }
 
         [TestMethod]
@@ -61,8 +61,8 @@ namespace Tests
             var result = Convert(b);
 
             //note that properties are also sorted alphabetically
-            Assert.AreEqual(result, 
-                "{\"$type\":\"Tests.ObjectSortConverterTests+Box, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Ints\":[0,1,2,3],\"Name\":\"Test\",\"Number\":42}");
+            Assert.AreEqual(
+                "{\"$type\":\"Tests.ObjectSortConverterTests+Box, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null\",\"Ints\":[0,1,2,3],\"Name\":\"Test\",\"Number\":42}", result);
         }
 
         private static string Convert(object value)
